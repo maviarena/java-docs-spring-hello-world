@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'SampleJavaGit'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C7AD2207D2744A34B88B798B75C9900D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0DC90EC964DB478E910E699B730E0DD2 }}
           package: '*.war'
